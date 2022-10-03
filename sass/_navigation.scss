@@ -2,6 +2,7 @@
 	background: $primary;
 	margin: auto;
 }
+
 .navbar {
 	border-radius: 0px;
 	padding-top: 23px !important;
@@ -13,8 +14,9 @@
 	.navbar-toggle {
 		min-width: unset !important;
 	}
+
 	a {
-		color: $white !important;
+		color: $white  !important;
 		font-weight: 400;
 		font-family: $font-heading;
 
@@ -22,18 +24,21 @@
 			font-weight: 900;
 		}
 	}
+
 	.navbar-brand {
 		height: auto;
+
 		img {
 			padding-left: 75px;
 			height: 36px;
 
-			@media screen and (max-width: $breakpoint-masthead-lg) {
+			@media screen and (max-width: $breakpoint-md) {
 				padding-left: 10px;
-				height: 30px !important;
+				height: 20px !important;
 			}
 		}
 	}
+
 	.navbar-collapse {
 		box-shadow: none;
 		border: none;
@@ -50,18 +55,22 @@
 	padding-left: 75px;
 	margin-right: 5vw;
 	font-size: 18px;
+
 	@media screen and (max-width: $breakpoint-masthead-lg) {
 		padding-left: 10px;
 	}
 
-	> li.nav-item {
+	>li.nav-item {
 		margin-right: 30px;
+
 		&:last-of-type {
 			margin-right: 0;
 		}
-		> a.nav-link {
+
+		>a.nav-link {
 			position: relative;
 			padding-left: 0;
+
 			&:after {
 				content: '';
 				display: block;
@@ -70,20 +79,24 @@
 				background: #fff;
 				transition: all 0.3s ease-in-out;
 			}
+
 			&:hover,
 			&:focus {
 				background-color: transparent;
+
 				//            color: $primary-dark;
 				&:after {
 					width: 100%;
 					// width: calc(100% - 4px - 0.6em);
 				}
+
 				.fas,
 				.fa,
 				.svg-inline--fa {
 					transform: translate(4px, -0.13em);
 				}
 			}
+
 			.fas,
 			.fa,
 			.svg-inline--fa {
@@ -93,7 +106,8 @@
 				transition: all 0.3s ease-in-out;
 			}
 		}
-		> a.nav-link.active:after {
+
+		>a.nav-link.active:after {
 			background: $blue;
 		}
 	}
@@ -117,9 +131,11 @@ Animated Mobile Menu Link
 	background: transparent !important;
 	margin: 0;
 	padding: 8px;
+
 	&:focus {
 		outline-color: #fff;
 	}
+
 	@media (min-width: $breakpoint-xl) {
 		display: none;
 	}
@@ -134,7 +150,8 @@ Animated Mobile Menu Link
 	height: 3px;
 	transition: all 0.2s;
 }
-.navbar-toggle .icon-bar + .icon-bar {
+
+.navbar-toggle .icon-bar+.icon-bar {
 	margin-top: 6px;
 }
 
@@ -169,12 +186,15 @@ Animated Mobile Menu Link
 @media screen and (max-width: $breakpoint-md) {
 	.navbar-nav {
 		margin: 14px -24px 0;
-		> li {
+
+		>li {
 			margin-bottom: 6px;
+
 			&:last-of-type {
 				margin-bottom: 0;
 			}
-			> a {
+
+			>a {
 				padding: 15px 24px;
 			}
 		}
@@ -187,6 +207,7 @@ Animated Mobile Menu Link
 	.navbar .navbar-brand img {
 		padding-left: 5px;
 	}
+
 	.navbar-toggle {
 		margin-bottom: 0;
 	}

@@ -1,6 +1,5 @@
 a {
-	&.btn,
-	&.cta-blue {
+	&.btn {
 		font-family: $font-heading;
 		font-weight: 700;
 		font-size: 20px;
@@ -10,12 +9,21 @@ a {
 		text-align: center;
 		text-transform: uppercase;
 
-		background: #0057b7 !important;
 		border-radius: 10px;
-		color: $white !important;
+
+		&-blue {
+			background: $blue  !important;
+			color: $white  !important;
+		}
+
+		&-white {
+			background: $white  !important;
+			color: $blue  !important;
+		}
 
 		&:hover {
-			background: $blue-dark !important;
+			background: $blue-dark  !important;
+			color: $white  !important;
 		}
 
 		@media screen and (max-width: $breakpoint-md) {

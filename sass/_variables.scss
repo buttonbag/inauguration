@@ -24,16 +24,16 @@ $breakpoint-xs: 480px;
 $breakpoint-masthead-lg: 1075px;
 
 /* Production */
-// $font-path-din-pro-cond: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/';
-// $font-path-din-pro: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro/';
-// $font-path-proxima-nova-cond: '/_layouts/15/DU.SPBaseLibs/css/webfonts/Proxima-Nova-Condensed/';
-// $image-path: '/13th-president/PublishingImages/';
+$font-path-din-pro-cond: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro-condensed/';
+$font-path-din-pro: '/_layouts/15/DU.SPBaseLibs/css/webfonts/din-pro/';
+$font-path-proxima-nova-cond: '/_layouts/15/DU.SPBaseLibs/css/webfonts/Proxima-Nova-Condensed/';
+$image-path: '/inauguration/PublishingImages/';
 
 // Local: ../../fonts/
-$font-path-din-pro-cond: '../../fonts/';
-$font-path-din-pro: '../../fonts/';
-$font-path-proxima-nova-cond: '../../fonts/';
-$image-path: '../../images/';
+// $font-path-din-pro-cond: '../../fonts/';
+// $font-path-din-pro: '../../fonts/';
+// $font-path-proxima-nova-cond: '../../fonts/';
+// $image-path: '../../images/';
 
 /***************************
 FONT OVERIDES
